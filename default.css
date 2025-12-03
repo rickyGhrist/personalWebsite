@@ -219,6 +219,7 @@ h6 {
 
 .btn-primary:hover {
   background-color: var(--accentColorDark);
+  color: white;
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 102, 204, 0.3);
 }

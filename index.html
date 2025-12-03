@@ -2,9 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ricky Ghrist</title>
+    <title>Ricky Ghrist - QA Engineer & Developer</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="default.css" />
@@ -16,108 +16,97 @@
     />
   </head>
   <body>
-    <section class="s1">
-      <div class="main-container">
-        <div class="greeting-wrapper">
-          <h1>Hi there! I'm Ricky Ghrist</h1>
+    <!-- Header/Hero Section -->
+    <header class="hero">
+      <nav class="navbar">
+        <div class="nav-brand">RG</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="mailto:rickyghrist@gmail.com" class="cta-button">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm Ricky Ghrist</h1>
+          <p class="hero-subtitle">QA Engineer | Test Automation Specialist | Developer</p>
+          <p class="hero-description">
+            I help build and comprehensively test applications with precision and expertise.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:rickyghrist@gmail.com" class="btn btn-primary">Get in Touch</a>
+            <a href="ghrist_resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+          </div>
         </div>
-
-        <div class="intro-wrapper">
-          <div class="nav-wrapper">
-            <div class="dots-wrapper">
-              <div class="browser-dot" id="dot-1"></div>
-              <div class="browser-dot" id="dot-2"></div>
-              <div class="browser-dot" id="dot-3"></div>
-            </div>
-            <ul id="navigation">
-              <li>
-                <a href="mailto:rickyghrist@gmail.com">Contact via Email</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="left-column">
-            <img id="profile-pic" src="images/profile.jpg" />
-            <h5 style="text-align: center; line-height: 0;">
-              Personalize Theme
-            </h5>
-
-            <div id="theme-options">
-              <div data-mode="light" id="light-mode" class="theme-dot"></div>
-              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-              <div data-mode="green" id="green-mode" class="theme-dot"></div>
-            </div>
-
-            <p id="settings-note">
-              Theme options will be saved for<br />your next visit
-            </p>
-          </div>
-
-          <div class="right-column">
-            <div id="preview-shadow">
-              <div id="preview">
-                <div id="corner-tl" class="corner"></div>
-                <div id="corner-tr" class="corner"></div>
-                <h3>What I do</h3>
-                <p>
-                  I help build and comprehensively test applications as a QA Engineer.
-                </p>
-                <div id="corner-br" class="corner"></div>
-                <div id="corner-bl" class="corner"></div>
-              </div>
-            </div>
-          </div>
+        <div class="hero-image">
+          <img id="profile-pic" src="images/profile.jpg" alt="Ricky Ghrist" />
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="s2">
-      <div class="main-container">
-        <div class="about-wrapper">
-          <div class="about-me">
-            <h4>More about me</h4>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
             <p>
-              I am a new father as of 12/2023! I have spent
+              I am a father and I have spent
               multiple years maintaining and improving code bases with new code standards and automated tests. Recently, I have 
               been able to switch my focus to being a test engineer that focuses on delivering quality work.
             </p>
             <p>
-              You can find me playing with our dog, son, video games, and board games.
+              You can find me playing with our dog, sons, video games, and board games.
             </p>
-          </div>
-
-          <div class="more-image">
-            <h4>TOP EXPERTISE</h4>
-
-            <p>
-              Download my resume here:
-              <a target="_blank" href="ghrist_resume.pdf">Resume</a>
-            </p>
-
-            <div id="skills">
-              <ul>
-                <li>.Net Core (C#)</li>
-                <li>Cypress</li>
-                <li>Database</li>
-                <li>React/Redux</li>
-                <li>Code Reviews</li>
-                <li>Mentoring</li>
-              </ul>
-
-              <ul>
-                <li>Agile</li>
-                <li>Service Bus</li>
-                <li>Docker</li>
-                <li>Regression</li>
-                <li>Azure DevOps</li>
-                <li>Documentation</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Top Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Core Skills</h3>
+            <ul>
+              <li>.Net (C#)</li>
+              <li>Cypress</li>
+              <li>Database</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Specializations</h3>
+            <ul>
+              <li>Code Reviews</li>
+              <li>Mentoring</li>
+              <li>Agile (SAFE and SCRUM)</li>
+              <li>Integration/Automation Testing</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>qTest</li>
+              <li>Regression Testing</li>
+              <li>Azure</li>
+              <li>Documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Ricky Ghrist. All rights reserved.</p>
+        <p><a href="mailto:rickyghrist@gmail.com">rickyghrist@gmail.com</a></p>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="script.js"></script>
   </body>
